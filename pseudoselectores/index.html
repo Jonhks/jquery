@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+</head>
+<script>
+		$(document).ready(function(){
+			function mostrar(){
+				console.log("Es un pseudoselctor");
+			}
+			$("p:contains(click)").on("mouseover", mostrar);
+		});
+	</script>
+	<style>
+		p{
+			margin-top: 20px;
+			margin-left: auto;
+			margin-right: auto;
+			background-color:red;
+			width: 100px;
+			height: 20px;
+		}
+	</style>
+	<!-- El pseudoselector not es para decirle cual no quieres que tenga la funcion -->
+	<!-- El pseudoselector last es para el ultimo elemento  -->
+	<!-- first es para el primer elemento -->
+	<!-- el has es para decirle que dentro de ese selector hay un elemnto ejemplo p-a -->
+	<!-- contains es para elejir las eqtiquetas con algun texto -->
+<body>
+	<p></p>
+	<p>
+		<a href=""></a>
+	</p>
+	<p class="cita"></p>
+	<p>
+		<a href=""></a>
+	</p>
+	<p>click</p>
+</body>
+</html>

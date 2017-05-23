@@ -1,0 +1,45 @@
+#menu{
+	border-bottom:1px solid yellow;
+	margin:10px 0px 0px 0px;
+	padding: 0px;
+	padding-left: 10px;
+	margin-top:50px;
+}
+
+#menu li{
+	display: inline;
+	/*overflow: hidden;*/
+	list-style-type:none;
+	text-decoration: none;
+}
+
+button a{
+	text-decoration: none;
+	cursor:hand;
+}
+
+#menu :hover{
+	background: blue;
+}
+
+#texto1, #texto2, #texto3{
+	background: #ccc;
+	padding: 20px;
+	border-top: 2px;
+	border: 1px solid black;
+	padding-top: 10px;
+	text-align: center;
+	width: 1200px;
+	height: 200px;
+	display: none;
+}
+
+#texto :hover{
+	background: black;
+}
+
+#mostrar1, #mostrar2, #mostrar3{
+	font-size: 20px;
+	text-align: center;
+	margin-top: 70px;
+}
