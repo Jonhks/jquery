@@ -1,0 +1,8 @@
+#slide{
+	background: black;	
+	width: 100px;
+	height: 100px;
+	border:#fff;
+	border:solid 2px #fff;
+	display: none;
+}

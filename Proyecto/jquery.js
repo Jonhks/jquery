@@ -19,7 +19,7 @@ $("#pestaña1").click(function(){
         $("#texto3").hide();
     });
 
- 	$("#pestaña2").click(function(){
+ 	$("#pestaña2").click(function(){  
         $("#texto1").hide();
         $("#texto2").toggle();
         $("#texto3").hide();
